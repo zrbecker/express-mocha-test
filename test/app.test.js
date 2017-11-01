@@ -2,7 +2,7 @@ import assert from 'assert'
 import fetch from 'node-fetch'
 import http from 'http'
 
-import app from '../app.js'
+import app from '../server/app.js'
 
 function assertMatchesRegex(actualString, expectedRegex) {
   if (!expectedRegex.test(actualString)) {
